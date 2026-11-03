@@ -1,0 +1,21 @@
+name: "🐞 Problema / Bug"
+description: Qualcosa non funziona come dovrebbe · Something doesn't work
+labels: ["bug"]
+body:
+  - type: textarea
+    id: cosa
+    attributes:
+      label: Cosa è successo? · What happened?
+      description: Cosa hai fatto, cosa ti aspettavi e cosa è successo invece.
+    validations: { required: true }
+  - type: input
+    id: versione
+    attributes:
+      label: Versione di RegiaLive e di macOS · Versions
+      placeholder: "RegiaLive 1.0.0 · macOS 15.2 · MacBook Pro M3"
+    validations: { required: true }
+  - type: textarea
+    id: diario
+    attributes:
+      label: Diario (facoltativo) · Logs (optional)
+      description: "Impostazioni › Registro eventi, oppure i file in ~/Library/Logs/RegiaLive"

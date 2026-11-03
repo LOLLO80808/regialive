@@ -1,0 +1,10 @@
+name: "💡 Idea / Nuova funzione"
+description: Proponi una funzione · Suggest a feature
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Cosa vorresti? · What would you like?
+      description: Racconta la situazione reale (che diretta fai, cosa ti manca).
+    validations: { required: true }
